@@ -1,0 +1,46 @@
+:root, :root[color-mode="light"] {
+    --header-background: #686868;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --header-background: #686868;
+    }
+}
+
+/* Dark mode theming */
+:root[color-mode="dark"] {
+    --header-background: #686868;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-background: #686868;
+    }
+}
+
+a.bar-span, .bar-span {
+    display: block;
+    background-color: #3d91ff;
+    border-radius: .3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: .7rem;
+    margin-bottom: .7rem;
+}
+
+a.bar-span:hover, .bar-span:hover {
+    background-color: #1e5eb3;
+    text-decoration: none;
+}
+
+a.card, .card {
+    background-color: #3d91ff;
+    border-radius: .3rem;
+    padding: .5rem;
+    color: white;
+}
+a.card:hover {
+    text-decoration: none;
+}
