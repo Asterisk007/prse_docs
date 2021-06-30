@@ -10,8 +10,9 @@ Contributing:
 
 1. Clone this repo
 2. `cd prse_docs`
-3. `git submodule update`
-4. `cd themes/geekdoc`
-5. `npm install && npx gulp default`
-6. `cd ../..`
-7. `hugo server -D`
+3. `git submodule init`
+4. `git submodule update`
+5. `cd themes/geekdoc`
+6. `npm install && npx gulp default`
+7. `cd ../..`
+8. `hugo server -D`
